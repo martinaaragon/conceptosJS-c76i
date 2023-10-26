@@ -4,10 +4,13 @@
 let frase = prompt('ingrese una frase');
 console.log(frase.length);
 console.log(frase.charAt(0));
+frase = frase.toLowerCase();
 
 //hola mundo
 //escribe un programa 
-if(frase.charAt(0) === 'a' || frase.charAt(0) === 'e' || frase.charAt(0) === 'i' || frase.charAt(0) || frase.charAt(0) 
+for(let i=0; i < frase.length; i++){
+if(frase.charAt(i) === 'a' || frase.charAt(i) === 'e' || frase.charAt(i) === 'i' || frase.charAt(i) === 'o' || frase.charAt(i) 
 === 'u'){
-         document.write(frase.charAt(0))
+         document.write(frase.charAt(i))
+}
 }
